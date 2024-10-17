@@ -4,8 +4,8 @@ import datetime
 import re
 import copy
 
-from Order import Order, timeDif
-from Lot import Lot, lotTimeViable, conjugate
+from app.lotting.Order import Order, timeDif
+from app.lotting.Lot import Lot, lotTimeViable, conjugate
 
 def month_iter(start_month, start_year, end_month, end_year):
     start = datetime.datetime(start_year, start_month, 1)

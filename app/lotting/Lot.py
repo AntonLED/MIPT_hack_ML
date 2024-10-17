@@ -3,7 +3,7 @@ import datetime
 import re
 import copy
 
-from Order import Order, timeDif
+from app.lotting.Order import Order, timeDif
 
 class Lot():
     def __init__(self, xs, suppliers=None):

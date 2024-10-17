@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import json
 from random import randint
-from lotting import lotting
+from app.lotting import lotting
 
 app = FastAPI()
 
